@@ -1,0 +1,23 @@
+.bought_span{
+    display: block;
+    font-size: 1.2rem;
+}
+
+.choose {
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem;
+    border: 0.2rem solid var(--blue);
+    border-radius: 0.8rem;
+    margin-top: 0.8rem;
+    cursor: pointer;
+    transition: all 0.1s;
+
+    &:not(:disabled):hover{
+        background-color: var(--blue);
+    }
+    &:disabled{
+        border: none;
+        cursor: default;
+    }
+}

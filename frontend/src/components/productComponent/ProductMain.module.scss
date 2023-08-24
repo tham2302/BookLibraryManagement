@@ -1,0 +1,38 @@
+.anh_dai_dien {
+    height: 40rem;
+    width: 40rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.btn{
+    font-size: 2rem;
+    padding: 1.2rem 1.6rem;
+    border: none;
+    background-color: var(--blue);
+    float: right;
+    margin-top: 2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.so_luong_mua{
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    button{
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 0.4rem 1.2rem;
+        border: none;
+        background-color: var(--blue);
+    }
+    span{
+        width: 6rem;
+        text-align: center;
+        display: inline-block;
+        padding: 0.6rem 0;
+        border-top: 0.2rem solid lightgray;
+        border-bottom: 0.2rem solid lightgray;
+    }
+}

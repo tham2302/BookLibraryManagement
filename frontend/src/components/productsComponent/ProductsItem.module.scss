@@ -1,0 +1,39 @@
+.products_item {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    max-width: calc(100% - 0.8rem);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Maven Pro", sans-serif;
+    text-align: center;
+
+    .wrap_img {
+        height: 24rem;
+        overflow: hidden;
+
+        .img {
+            height: 24rem;
+            background-position: center;
+            background-size: cover;
+            transition: transform 0.8s;
+        }
+    }
+
+    .name {
+        margin-top: 0.5rem;
+        font-size: 1.5rem;
+        color: #080707;
+        transition: color 0.6s;
+
+        &:hover{
+            color: var(--blue);
+        }
+    }
+
+    &:hover {
+        .img {
+            transform: scale(1.2);
+        }
+    }
+}

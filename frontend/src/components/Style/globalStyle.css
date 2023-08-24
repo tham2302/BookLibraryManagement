@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto+Slab&display=swap');
+:root {
+    --black: rgb(0, 0, 0);
+    --pink: rgb(240, 98, 146);
+    --gray: gray;
+    --blue: rgb(79, 142, 236);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 79%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    background-color: rgb(245 245 245 / 36%);
+}
+.style_container {
+    border-radius: 0.8rem;
+    box-shadow: 0 0 0.4rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+.style_icon_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #505050;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+    transition: all 0.1s;
+}
+.style_icon_wrap:hover{
+    width: 4rem;
+    height: 4rem;
+    color: var(--blue);
+    background-color: rgba(159, 159, 159, 0.2);
+}
+.mg_t40{
+    margin-top: 4rem;
+}
